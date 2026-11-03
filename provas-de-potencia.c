@@ -16,8 +16,8 @@ int main()
     }
 
     for (i = 0; i < N; i++) {
-        printf("\n••••••••••••\n");
-        printf("Potencia correta: %d\n", potencia_correta[i]);
+        printf("••••••••••••\n");
+        printf("\nPotencia correta: %d\n", potencia_correta[i]);
         printf("Potencia prova: %d\n", potencia_prova[i]);
 
         if (potencia_correta[i] == potencia_prova[i]) {
